@@ -40,7 +40,7 @@ const javas = document.getElementByClassName("java");
 
 
 
-//this is the ajax and javascript code for contact session
+//this is the code for contact session
 
 var form = document.getElementById("my-form");
 async function handleSubmit(event) {
