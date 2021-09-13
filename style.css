@@ -449,10 +449,11 @@ footer div P {
         position: relative;
     }
     .description {
+        position:absolute;
         text-align: center;
         font-size: 18px;
         top: 10%;
-        right: 28%;
+        right: 30%;
     }
     .bannerImage {
         margin: 1%;
