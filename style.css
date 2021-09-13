@@ -24,8 +24,6 @@ nav {
     z-index: 124;
     position: fixed;
     z-index: 2;
-    /* position: relative; */
-    /* position: fixed; */
     width: 100%;
     height: 49px;
     background-color: blue;
@@ -35,7 +33,6 @@ nav {
     display: flex;
     list-style: none;
     width: 50%;
-    /* background: lightcoral; */
     height: 100%;
     justify-content: space-around;
     align-items: center;
@@ -61,28 +58,6 @@ nav {
 }
 
 
-/* This is The css of the dots .png i donot want to use this css file  so i am commenting this css
-file  */
-
-
-/* .landing h1 {
-    margin: 1rem;
-    font-size: 40px;
-    color: #ae5fce;
-    text-align: center;
-    top: 12rem;
-    padding-top: 5rem;
-}
-
-.landing img {
-    margin-top: 10%;
-    margin-left: 2rem;
-    /* max-height: 400px; */
-
-
-/*min-width: 2rem;
-    align-items: center;
-} */
 
 @media screen and (max-width:760px) {
     h1 {
@@ -124,10 +99,7 @@ file  */
         -webkit-clip-path: circle(1000px at 90% -10%);
         pointer-events: all;
     }
-    /* .nav-links.close {
-        clip-path: circle(1000px at 90% -10%);
-        -webkit-clip-path: circle(11px at 90% -10%);
-    } */
+  
     .nav-links li {
         opacity: 0;
     }
@@ -149,12 +121,6 @@ file  */
 }
 
 
-/* #banner {
-    margin: 1%;
-    width: 98%;
-    height: 50vh;
-} */
-
 .bannerImage {
     text-align: center;
     background-image: url('icons/banner.png');
@@ -169,7 +135,6 @@ file  */
 .description {
     color: orange;
     font-size: 25px;
-    /* padding: 10px; */
     position: absolute;
     top: 10rem;
     margin-left: 10%;
