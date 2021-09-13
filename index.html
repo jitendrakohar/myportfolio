@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myWebsite</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+
+</head>
+
+<body>
+    <nav>
+        <!-- TECHNICAL<img src="/stars-png-613.png" alt="image not found in this directory" style="width: 30px; height: 21px;">? -->
+        <div class="myLogo">
+            <h3 style="padding-left: 11px; font-family: cursive;">CSJITEN.com</h2>
+        </div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+        <ul class="nav-links">
+            <li onclick="myFunction()"><a href="#Home">HOME</a></li>
+            <li onclick="myFunction()"><a href="#PORTFOLIO">PORTFOLIO</a></li>
+            <li onclick="myFunction()"><a href="#SKILLS">SKILLS</a></li>
+            <li onclick="myFunction()"><a href="#CONTACTUS">CONTACT US</a></li>
+
+        </ul>
+    </nav>
+    <div id="Home">
+        <section>
+            <div class="bannerImage">
+                <div class="description">Hello,
+                    <span><h3>I am</h3><h2> <span >Jitendra Kohar</span></h2>
+                    </span>
+                    <h3>WEB & Android Devloper</h3>
+                    <h4>while (alive)<br>{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br> Eat();&nbsp;&nbsp;&nbsp;&nbsp;
+                        <br> Sleep();
+                        <br> Code();
+                        <br>&nbsp;&nbsp; Repeat();<br> }&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </h4>
+                </div>
+                <img src="icons/mephoto.jpg" id="mePhoto">
+            </div>
+        </section>
+        <div class="myBio">
+            <div id="bioImage"><img src="icons/coding.jpg" style="z-index: 132;"></div>
+            <div class="aboutMe">
+                <h1 style="padding-top:0;color: blue;">Bio</h1>
+                <p>
+                    &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; My name is Jitendra kohar. I am from Lumbini, Nepal. Currently I am doing a B. Tec of Computer Science at India's recognized University VTU in Karnataka, Bangalore. Beside this everyone has their hobbies, My hobbies
+                    is coding and I also love Music. When i become bored from coding, you find me hanging out on youtube and listening a music
+                    <a href="Resume.html"> <button id="viewMore">View more</button></a>
+                </p>
+            </div>
+        </div>
+        <section class="design">
+            <div class="designCircle circle1" style="width: 10rem;height:10rem; border-radius: 5rem;margin-top: 0%; background-color:rgb(151,160,255,0.2);position: absolute; right:0.1rem;bottom: -3rem;margin-right:0rem;z-index:133 ;overflow-x: hidden;"></div>
+            <!-- <div class="designCircle circle2" style="width:8rem;height:8rem;border-radius:4rem;background-color:rgba(28, 36, 126, 0.5);"> </div> -->
+        </section>
+
+
+
+        <!-- This is the skill section of my website  -->
+        <section class="skills" id="SKILLS" style="color: blue;">
+            <!-- <div class="sidebar" id="sidebars" style="text-align: center;">
+                <h2>sidebar
+                    <hr>
+                </h2>
+                hello
+            </div> -->
+            <div class="skillbar" style="margin-left:5%;margin-right:5%;width:90%">
+                <h1 style="text-align: center;">SKILLS</h1>
+                <hr>
+                <div class="skillbars" style="margin: 10px; display: flex; flex-wrap: wrap;">
+                    <div class="course html" style="display:flex;flex-wrap:nowrap;background-color: white; width: 200px; height: 22px;">
+                        <div class="htmlbar" style=" flex-grow:1;width:140px;height:auto;border-radius:5px;border:0.5px tomato;background-color:rgb(21, 209, 131);flex-grow: 1;">html&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
+                        <div class="blankSpace" style="width: 60px; flex-grow: 1;">70%</div>
+                    </div>
+
+
+                    <div class=" course css " style=" background-color:white; width: 200px; height: 22px;display:inline-flex;flex-wrap: nowrap; ">
+                        <div class="css " style=" flex-grow:1;width:170px;height:auto;border-radius:5px;border:0.5px tomato;background-color:rgb(21, 209, 131); ">css</div>
+                        <!-- <div>70%</div> -->
+                        <div class="blankSpace" style="flex-grow: 1;width: 60px;">85%</div>
+                    </div>
+
+
+                    <div class="course javascript " style="display:inline-flex;background-color:rgb(255, 255, 255); width: 200px; height: 22px; ">
+                        <div class="javascript " style="width:100px;height:auto;border-radius:5px;border:0.5px tomato;background-color:rgb(21, 209, 131);">Javascript</div>
+
+                        <div class="blankSpace" style="flex-grow: 1; width:100px;">50%</div>
+                    </div>
+
+
+                    <div class="course Java " style="display:inline-flex;background-color: white; width: 200px; height: 22px; " onclick="document.getElementById('sidebars').style.backgroundcolor='red'">
+                        <div class="java " style="flex-grow:1;width:20px;height:auto;border-radius:5px;border:0.5px tomato;background-color:rgb(21, 209, 131);">Java</div>
+                        <div class="blankSpace " style="width:180px; flex-grow:1; height: 22px;">10%</div>
+                    </div>
+                    <!-- <div id="java" onclick="show()"></div> -->
+
+
+                    <div class="course Android " style="display:inline-flex;flex-wrap:nowrap;background-color:rgb(240, 230, 234); width: 200px; height: 22px; ">
+                        <div class="android " style="flex-grow:1;width:30px;height:auto;border-radius:5px;border:0.5px tomato;background-color:rgb(21, 209, 131);">Android </div>
+                        <div class="blankSpace" style="width:170px; flex-grow: 1;">15%</div>
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+
+
+
+
+        <!-- This is the portfoliohs section of my websiter -->
+        <div id="PORTFOLIO" class="portfolios" id="1" style="color: blue;">
+            <h1 style="color:blue;text-align: center;padding: 20px;font-size: 24px; "><img src="icons/experience.png " style="width: 70px;height:30px; ">MY PORTFOLIO</h1>
+            <hr>
+            <div class="portfolio " style="margin-top: 1rem; ">
+                <a href="webDevlopment.html" style="text-decoration: none;">
+                    <div class="folioSection portfolio1 webDevlopment "><img src="icons/Web-Development.png " style="width: 100%;height:220px; ">
+                        <h3>web Devlopment project</h3>
+                    </div>
+                </a>
+                <a href="androidDevlopment.html" style="text-decoration: none;">
+                    <div class="folioSection portfolio2 androidDevlopment "><img src="icons/android.png " style="width:50%; height: 220px; ">
+                        <h3>Android devlopment project</h3>
+                    </div>
+                </a>
+                <a href="Github.html" style="text-decoration: none;">
+                    <div class="folioSection portfolio3 Github "><img src="icons/github.png " style="width:100%;height:220px ">
+                        <h3>GITHUB</h3>
+                    </div>
+                </a>
+                <a href="javascript.html" style="text-decoration: none;">
+                    <div class="folioSection portfolio4 javascript project "><img src="icons/javascript.png " style="width:100%;height:220px ">
+                        <h3>javascript project</h3>
+                    </div>
+                </a>
+                <a href="java.html" style="text-decoration: none;">
+                    <div class="folioSection portfolio5 others "><img src="icons/java.png " width="100% " height="220px ">
+                        <h3>java</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="contactSection" id="CONTACTUS">
+
+
+            <div class="contactInformation">
+                <h2 id="contactHead">
+                    <p> If you wanna </p>
+                    <p>do/get support,</p>
+                    <p>Contact here</p>
+                    <a href="mailto:jitendrakohar05@gmail.com" style="text-decoration: none;">
+                        <p>jitendrakohar@gmail.com</p>
+                    </a>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>contact us:</p>
+                    <a href="tel:+917232913419" style="text-decoration: none;">
+                        <p>ClickHere</p>
+                    </a>
+                    <p>&nbsp;&nbsp;&nbsp;</p>
+                    <p> &nbsp;</p>
+                    <p style=" font-size: medium;font-weight: 600; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Banglore technological institute,chikanakanhalli,Banglore</p>
+                    <p>&nbsp;</p>
+                    <p style=" font-size: medium; font-weight: 850; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">sarjapur road,560035,karnataka</p>
+                </h2>
+            </div>
+
+
+
+            <div class="contactMessage">
+                <form id="my-form" action="https://formspree.io/f/xbjqqvro" method="post" style="width: 100%;height: auto;">
+                    <label for="email" style="margin-left:0px">E-Mail:</label><br>
+                    <input type="email" id="email" name="gmail" placeholder="abc@gmail.com"><br>
+                    <label for="text" style="padding-top: 20px;">Name:</label><br>
+                    <input type="text" id="text" name="Name" placeholder="jiten.."><br>
+                    <label for="message">Message:</label><br>
+                    <!-- <input type="text" id="message" name="message" placeholder="write your messge here" "> -->
+                    <textarea id="message" name="message" rows="6" cols="40"></textarea> <br>
+                    <input id="my-form-button" type="submit" value="submit">
+                    <p id="my-form-status"></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="footer" style=" width: 100%;height:auto; padding: 20px; text-align: center;">
+        <div>
+            <span><p style="padding-left: 3rem; color: white;">Connect with us : </p></a>
+            <a href="mailto:jitendrakohar06@gmail.com"> <img src="IconsSocialMedia/envelope-solid.svg" width="40px" height="40px"></a>
+                <a href="https://www.linkedin.com/in/jitendra-kohar-1345ba1a3/"> <img src="IconsSocialMedia/linkedin-brands.svg" width="40px" height="40px"></a>
+                    <a href="https://twitter.com/JitendraKohar34"><img src="IconsSocialMedia/twitter-brands.svg" width="40px" height="40px"></a>
+                        <a href="https://github.com/jitendrakohar"><img src="IconsSocialMedia/github-brands.svg" width="40px" height="40px"></a>
+        </div></a>
+        <DIV class="copyright" style="width: 100%; height: auto;margin-bottom: 0px;">
+            <div style="margin-bottom: 0px; text-align: center;"> &#169;2021 all right reserved</div>
+        </DIV>
+    </footer>
+
+    <!-- <script src="/script.js "></script> -->
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
+    <!-- <script>
+        AOS.init({
+            duration: 4000
+        });
+    </script> -->
+
+
+</body>
+
+</html>
