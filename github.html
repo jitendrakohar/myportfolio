@@ -10,7 +10,140 @@
 
 <body>
     <div style="background-color: blue; color: white; font-size: 23px; text-align: center;">Github</div>
-    <div style="text-align:center;font-size: 18px;">I have done some Github project .I will soon present it here</div>
+    <div style="text-align:center;font-size: 18px;"></div>
 </body>
-
+<p>
+    
+    <h3>Setting A GMAIL AND  NAME</h3>
+    <br>git config --global user.name  "your gmail here"
+    <br>git config --global user.email  "your phone no here"
+<br>
+    <br><h3>Basic thing in git</h3>
+    <br>Open the folder ,and open git bash here by clicking anywhere in the folder
+    <br> After git bash is opened type "git status"
+    <br>it will give you a message that "fatal:not a git repository:"
+    <br>Now type "git init " to initialize this folder as a repository
+    <br>Now if you type the git status then we will jget the files which are present in the folder 
+    <br>and it also show that the file is not tracked
+    <br>Now track all the file using "git add --a" which will add all the files to the staging area
+    <br>Now we have to commit  using the command  "git commit -m "initial  commit"
+    <br>Now if we do git status again it will say "there is nothing to commit,working tree clean"
+    <br>Now to see the commmits we have made we use "git log" command
+    <br>Now if you modify a single file and want to stage that only file we will use "git add file.ext"
+    <br> Where file.ext is a file name
+    <br>Now we will commit with a message by typing "git commit -m "your commit message"
+    <br>Now you have successfully tracked files
+    <br>
+    <br><h3>Staging a file in github</h3>
+    <br>To stage file all at a time you need to type the command 
+    <br>"git add --a"
+    <br>followed by "git init" command
+    <br>Every file has been staged 
+    <br>
+    <br>
+    <br><h3>Using a gitIgnore folder </h3>
+    <br>if we made some unnecessary folder there we dont want to 
+    <br>stage and commit on that folder we use the .gitignore file
+    <br>type the file name on the *.gitignore file the file will be ignored
+    <br>Now type "git add --a" to .gitignore to the staging area
+    <br>Now lets commit by typing "git commit -m "added.gitignore"
+    <br>if the code is modified then
+    <br>if we use "git diff" command then it will show the difference between previous
+    <br> and current file comparision.
+    <br>again if we add "git add -a" and use "git diff" ,it will not show you anything 
+    <br>if we use "git diff --gitstaged " it will compare every commit with  your working directory
+    <br>Now let's skip the staging by typing “git commit -a -m “Commit Message””.
+    <br>Now if we do “git status” it will show that the working directory is clean. Which means 
+    <br>we have successfully skipped the staging area and committed the changes.
+    <br>
+    <br>
+    <br>
+    <br><h3>Deleting the git files</h3>
+    <br>we can delete files using git we need use this command:
+    <br> "git rm filename.extension" it will delete all the file and if you do 
+    <br>"git status" Now the files has been deleted and staged Now we have to commit by using 
+    <br>"git commit -m "commit message"
+    <br>To rename the file ,we have to use the command "git mv filename.extension renamefile.extension". It will rename the file from filename.extension to renamefile.extension and it will automatically staged by git now we have to commit the staged files
+    <br>
+    <br>
+    <br>
+    <br><h3>viewing and changing commits in gits</h3>
+    <br>To see the commits made on the git repo, we need to type "git log". the all commit will arrive in the editor ,Now to exit this window we need to type "q" on our keyboard and press enter
+    <br>To see the diff in commit we need to use "git log -p", it will show you what has been changed
+    <br>To see the last two commits and changes we need to use "git log -p -2"
+    <br>
+    <br>
+    <br><h3>Changing a commit message</h3>
+    <br>Now to change the most recent commit, we need to type "git commit --amend" and press enter. Then an editor will open where you can change the commit message and then you need to close it by pressing "esc" and then type ":wq"
+    <br>
+    <br>
+    <br>
+    <br><h3>Unstaging and  modifying the files in git</h3>
+    <br>
+    <br>To unstage a file ,we have to use "git restore --staged file.ext".it will unstage the file and we can verify it by using "git status"
+    <br>
+    <br>
+    <br>Now lets say we have modified the unstaged file and made some change which are not necessary ,Now the program is not working we have to unstaged file and made some changes which were not necessary, Now the program is not working .To do it use "git checkout --file.ext ".
+    <br>Now git will restore that files to its last commit state
+    <br>
+    <br>To restore the entire working directory to the previous commit use "git checkout -f ",it will restore entire directory to the last commit
+    <br>
+    <br>
+    <br>To create a another branch to avoid unauthorized changes to master branch
+    <br> type command :"git branch new_branch_name"
+    <br>
+    <br> 
+    <br>For moving from the master branch to feature branch ,we use the following command: "git checkout  Branch_name"   
+    <br>
+    <br>To list all the available branch present in git, we have to use this command: "git branch"
+    <br>
+    <br>for merging the feature branch to master branch 
+    <br>use: "git branch feature1"
+    <br> 
+    <br>
+    <br><h3>pushing a master branch</h3> 
+    <br>git intit
+    <br>git branch -M master
+    <br> first we have to copy the command like this "git remote add origin https://
+    <br>git-------------"
+    <br>
+    <br>and then after we have to type command 
+    <br>"git remote"
+    <br>and thirdly input command :"git remote -v"
+    <br>and then after type:"git push origin master"
+    <br>when remote origin allready exist then type below command to :
+    <br> git remote  set-url origin 
+    <br>  git push -u origin master
+    <br>  Hosting webstite
+    <br>  Modifying a github pages 
+    <br>  git push
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</p>
 </html>
